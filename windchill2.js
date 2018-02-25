@@ -6,7 +6,7 @@ function computeNum() {
 	if (textInput.length < 3 || isNaN(textInput)) return; // Validation return nothing
 	
 	// Processing - multiply by the a random number taken to the 3rd power
-	var ta = 7
+	var ta = 17
 	var v = 3
 	var theNumber = parseInt(textInput); // OK - parse string to number
 	var theValue = theNumber * 35.74 + (0.6215 * ta) - 35.75 * Math.pow(v,0.16) + 0.4275 * ta * Math.pow(v, 0.16);
