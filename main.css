@@ -86,6 +86,13 @@ header .subheading {
     
     }
 
+.windchill {
+  display: flex;
+  align-self: center;
+  
+  
+}
+
 main {
    border-size: 2px;
    border-style: solid;
