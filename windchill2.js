@@ -3,7 +3,7 @@
 function computeNum() {
 	// Input - get input and validate if correct length and if a number
 	var textInput = get("aNum").value;
-	if (textInput.length < 3 || isNaN(textInput)) return; // Validation return nothing
+	if (textInput.length > 4 || isNaN(textInput)) return; // Validation return nothing
 	
 	// Processing - multiply by the a random number taken to the 3rd power
 	var ta = 17
