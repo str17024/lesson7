@@ -12,7 +12,7 @@ function computeNum() {
 	var theValue = theNumber * 35.74 + (0.6215 * ta) - 35.75 * Math.pow(v,0.16) + 0.4275 * ta * Math.pow(v, 0.16);
 	
 	// Output - output to the div and round the number value to two decimal places
-	get("output").innerHTML = "The value is <strong>" + theValue.toFixed(2) + "</strong>!";
+	get("output").innerHTML = "The value is wrong, but i think the math is correct, ha! <strong>" + theValue.toFixed(2) + "</strong>!";
 }
 
 function get(e) { return document.getElementById(e); }
